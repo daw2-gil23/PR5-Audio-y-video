@@ -1,0 +1,58 @@
+.imagenFondo{
+    height: 700px;
+    background-image: url("../img/fondo.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;    
+}
+
+.flexbox {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.audio-player {
+  width: 100%;
+  color: #000;
+}
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#titulo {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.enlace {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.enlace:hover {
+  color: #4d4c4c;
+}
+
+.estiloa a{
+  text-decoration: none;  
+  color: rgb(0, 0, 0);
+}
+
+main{
+  background-color: #f0ecec;
+}
+
+header{
+  background-color: #f0ecec;
+}
+
+#musica{
+  height: 500px;
+  background-image: url("https://cdn.pixabay.com/photo/2021/01/31/17/26/music-notes-5967916_1280.png");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
